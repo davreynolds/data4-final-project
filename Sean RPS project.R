@@ -116,4 +116,7 @@ for(i in 1:100){
   what_cell<-prop_move
 }
 
+# lets take what we have
+# note that we have 3 iters, since it's a Best of 3, we want to hope that at least
+# two of our 'rows' are 'winning' choices!
 

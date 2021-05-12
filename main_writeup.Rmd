@@ -1,0 +1,50 @@
+---
+title: "Playing Simple Games with Reinforcement Learning"
+author:
+- name: Sean Xiaohao Duan
+  affiliation: '1'
+  email: sxdff5@mail.missouri.edu
+- name: David Reynolds
+  affiliation: '1'
+  email: davidreynolds@mail.missouri.edu
+subtitle: A Final Project for Data IV
+output: pdf_document
+affiliation:
+- id: '1'
+  institution: University of Missouri
+---
+
+```{r setup}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed, include = FALSE)
+knitr::knit_hooks$set(purl = knitr::hook_purl)
+```
+
+
+```{r pkgload, include = FALSE}
+#PUT YOUR LIBRARY PACKAGES HERE WHEN YOU ARE READY
+
+#sean's pkgs
+library(lme4)
+library(ggplot2)
+library(papaja)
+library(sjPlot)
+library(tidyverse)
+library(nnet)
+```
+
+## Introduction
+
+For our final project for Data IV, our group decided to use the Reinforcement Learning Methods that we had learned previously in this semester of class. We believed that this was a good choice, as it seemed direct and simple to implement, with a large variety of potential applications. We decided as a group that some simple traditional games would be a good field of application for our reinforcement learning methods. We explain further our purposes and choices of methodology in the following sections focusing on each of our individual efforts in this group project.
+
+```{r child = "david_project.Rmd"}
+```
+
+
+```{r child = "sean_project.Rmd"}
+```
+
+
+## Conclusion
+
