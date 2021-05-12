@@ -14,14 +14,6 @@ affiliation:
   institution: University of Missouri
 ---
 
-```{r setup}
-# Seed for random number generation
-set.seed(42)
-knitr::opts_chunk$set(cache.extra = knitr::rand_seed, include = FALSE)
-knitr::knit_hooks$set(purl = knitr::hook_purl)
-```
-
-
 ```{r pkgload, include = FALSE}
 #PUT YOUR LIBRARY PACKAGES HERE WHEN YOU ARE READY
 
@@ -34,7 +26,7 @@ library(tidyverse)
 library(nnet)
 ```
 
-## Introduction
+# Introduction
 
 For our final project for Data IV, our group decided to use the Reinforcement Learning Methods that we had learned previously in this semester of class. We believed that this was a good choice, as it seemed direct and simple to implement, with a large variety of potential applications. We decided as a group that some simple traditional games would be a good field of application for our reinforcement learning methods. We explain further our purposes and choices of methodology in the following sections focusing on each of our individual efforts in this group project.
 
@@ -46,5 +38,6 @@ For our final project for Data IV, our group decided to use the Reinforcement Le
 ```
 
 
-## Conclusion
+# Overall Project Conclusion 
 
+This project was an extremely satisfying opportunity to grow as students and statisticians. It is always important to try and see if we can grow and adapt to new problems and getting to choose our own area of focus for this last project lead to quality learning. One of the bigger problems that I believe our team solved on this project was efficiently collaborating across two different programming languages on two separate but related problems. We used GitHub for our collaboration and integration of our efforts, and as compared to our previous project in Data III (which both of our group members worked on as well) we had a significantly smoother and more effective time, reflective of our increased mastery of the system in which we were able to work. Additionally, integrating David's problems by using images of Python code and our figures was a challenge, but a worthwhile one with regards to producing a final report and product that was relatively easy to use.
