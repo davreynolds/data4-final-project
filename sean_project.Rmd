@@ -89,7 +89,7 @@ With regards to our output, for this problem, there are a great deal of our para
 
 To summarize for our initial attempt, we chose reward values of 100 for wining, 10 for tying, 0 for losing, and a sampling ratio of 50%, 25%, 25% for our preferred sign and the other signs respectively. Additionally, our gamma value was set to 0.9, our learning rate was set to 0.2, and our iterations were set to 100.
 
-### **Output*
+## **Output** ##
 
 Below we can see the output of our first attempt in our Q-matrix. Note that this is against an agent trained to throw rock, so with regards to scoring, we wish to see the greatest values in our second column (throwing paper against rock), for at least two of our rows.
 
