@@ -1,23 +1,14 @@
 ---
-title: "Playing Simple Games with Reinforcement Learning"
+title: '**Playing simple games with reinforcement learning**'
 author:
-- name: Sean Xiaohao Duan
-  affiliation: '1'
-  email: sxdff5@mail.missouri.edu
-- name: David Reynolds
-  affiliation: '1'
-  email: davidreynolds@mail.missouri.edu
-subtitle: A Final Project for Data IV
-output: pdf_document
-affiliation:
-- id: '1'
-  institution: University of Missouri
+- name: '*Sean Duan and David Reynolds, University of Missouri*'
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r pkgload, include = FALSE}
-#PUT YOUR LIBRARY PACKAGES HERE WHEN YOU ARE READY
-
-#sean's pkgs
+# Sean's pkgs
 library(lme4)
 library(ggplot2)
 library(papaja)
@@ -26,18 +17,14 @@ library(tidyverse)
 library(nnet)
 ```
 
-# Introduction
-
-For our final project for Data IV, our group decided to use the Reinforcement Learning Methods that we had learned previously in this semester of class. We believed that this was a good choice, as it seemed direct and simple to implement, with a large variety of potential applications. We decided as a group that some simple traditional games would be a good field of application for our reinforcement learning methods. We explain further our purposes and choices of methodology in the following sections focusing on each of our individual efforts in this group project.
-
-```{r child = "david_project.Rmd"}
-```
-
+For our final project for STAT 9340: Data Analysis IV, we decided to focus on reinforcement learning. We believe this was a good choice, as reinforcement learning is relatively intuitive and has a variety of applications. We decided that some simple traditional games would be a good area of application, specifically rock paper scissors and Connect Four. We explain further our motivation and methodology in the following sections, each focusing on one of the two games.
 
 ```{r child = "sean_project.Rmd"}
 ```
 
+```{r child = "david_project.Rmd"}
+```
 
-# Overall Project Conclusion 
+### **Overall project conclusion** 
 
-This project was an extremely satisfying opportunity to grow as students and statisticians. It is always important to try and see if we can grow and adapt to new problems and getting to choose our own area of focus for this last project lead to quality learning. One of the bigger problems that I believe our team solved on this project was efficiently collaborating across two different programming languages on two separate but related problems. We used GitHub for our collaboration and integration of our efforts, and as compared to our previous project in Data III (which both of our group members worked on as well) we had a significantly smoother and more effective time, reflective of our increased mastery of the system in which we were able to work. Additionally, integrating David's problems by using images of Python code and our figures was a challenge, but a worthwhile one with regards to producing a final report and product that was relatively easy to use.
+This project was an extremely satisfying opportunity to grow as students and statisticians. It is always important to try and see if we can grow and adapt to new problems, and getting to choose our own area of focus for this last project led to ample learning. One of the biggest problems we dealt with was efficiently collaborating across two different programming languages on two separate but related problems. We used GitHub for collaboration, and as compared to our previous project in Data III (which our group members also worked on together), we had a significantly easier experience, reflective of our increased mastery of the platform. Additionally, integrating images of Python output and our R figures was a challenge but a worthwhile one with regard to producing a final report and product that was relatively easy to use.
